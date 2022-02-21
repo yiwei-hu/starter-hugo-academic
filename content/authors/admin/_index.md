@@ -9,7 +9,7 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: /#contact
+    link: yiwei.hu@yale.edu
   - icon: graduation-cap
     icon_pack: fas
     link: https://graphics.cs.yale.edu/people/yiwei-hu
@@ -21,15 +21,12 @@ organizations:
     url: https://www.yale.edu/
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Computer Graphics
+      institution: Yale University
+      year: 2024
+    - course: BSc in Computer Science
+      institution: Zhejiang University
+      year: 2018
 email: yiwei.hu dot yale dot com
 superuser: true
 highlight_name: true
