@@ -30,7 +30,7 @@ education:
     - course: BSc in Artificial Intelligence
       institution: Massachusetts Institute of Technology
       year: 2008
-email: ""
+email: yiwei.hu dot yale dot com
 superuser: true
 highlight_name: true
 ---
