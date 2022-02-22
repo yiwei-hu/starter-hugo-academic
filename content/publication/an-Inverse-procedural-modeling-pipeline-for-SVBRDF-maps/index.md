@@ -9,7 +9,7 @@ authors:
   - Julie Dorsey
   - Holly Rushmeier
 author_notes: []
-publication: ACM Transactions on Graphics (To be presented at SIGGRAPH 2022)
+publication: ACM Transactions on Graphics
 url_dataset: ""
 url_project: ""
 url_source: ""

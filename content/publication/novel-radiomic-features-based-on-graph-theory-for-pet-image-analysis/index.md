@@ -27,7 +27,7 @@ image:
   preview_only: false
 date: 2019-04-01
 publishDate: 2019-04-01
-url_pdf: ""
+url_pdf: "https://ieeexplore.ieee.org/document/8759318"
 url_project: ""
 url_slides: ""
 url_poster: ""
