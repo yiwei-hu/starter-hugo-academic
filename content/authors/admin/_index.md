@@ -9,7 +9,7 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: yiwei.hu@yale.edu
+    link: mailto:yiwei.hu@yale.edu
   - icon: graduation-cap
     icon_pack: fas
     link: https://graphics.cs.yale.edu/people/yiwei-hu
@@ -23,7 +23,7 @@ education:
   courses:
     - course: PhD in Computer Graphics
       institution: Yale University
-      year: 2024
+      year: Current
     - course: BSc in Computer Science
       institution: Zhejiang University
       year: 2018
@@ -31,6 +31,11 @@ email: ""
 superuser: true
 highlight_name: true
 ---
-I am a fourth-year Ph.D candidate in Computer Graphics Group at Yale Univerisity advised by {{< staticref "https://graphics.cs.yale.edu/people/holly-rushmeier" "newtab" >}}Prof. Holly Rushmeier{{< /staticref >}} [](https://graphics.cs.yale.edu/people/holly-rushmeier)and "https://graphics.cs.yale.edu/people/julie-dorsey" "newtab" >}}Prof. Julie Dorsey{{< /staticref >}}. My current research forcues on material appearance modeling and rendering. Prior to Yale, I received my bachelor’s degree in the Computer Science Department at Zhejiang University.
+I am a fourth-year Ph.D candidate in Computer Graphics Group at Yale Univerisity advised by 
+[Prof. Holly Rushmeier](https://graphics.cs.yale.edu/people/holly-rushmeier) and [Prof. Julie Dorsey](https://graphics.cs.yale.edu/people/julie-dorsey"). 
+My current research forcues on material appearance modeling and rendering. Prior to Yale, I received my bachelor’s degree in the Computer Science Department at Zhejiang University.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+I interned at Adobe Research London Lab working with [Valentin Deschaintre](https://valentin.deschaintre.fr/), 
+and also at Facebook Reality Lab with Chakravarty R. Alla Chaitanya. During my undergraduate study, I was a research assistant advised by [Prof. Rui Wang](http://www.cad.zju.edu.cn/home/rwang/) working on GPU pipeline optimization.
+
+Besides graphics, I was a visiting scholar at Harvard Medical School supervised by Prof. Quanzheng Li. 
