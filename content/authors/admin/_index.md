@@ -38,4 +38,4 @@ My current research forcues on material appearance modeling and rendering. Prior
 I interned at Adobe Research London Lab working with [Valentin Deschaintre](https://valentin.deschaintre.fr/), 
 and also at Facebook Reality Lab with Chakravarty R. Alla Chaitanya. During my undergraduate study, I was a research assistant advised by [Prof. Rui Wang](http://www.cad.zju.edu.cn/home/rwang/) working on GPU pipeline optimization.
 
-Besides graphics, I was a visiting scholar at Harvard Medical School supervised by Prof. Quanzheng Li. 
+Besides graphics, I was a visiting scholar at Harvard Medical School supervised by Prof. Quanzheng Li, working on medical image processing.
