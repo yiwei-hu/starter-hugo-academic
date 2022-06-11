@@ -3,7 +3,7 @@ title: An Inverse Procedural Modeling Pipeline for SVBRDF Maps
 summary: Main paper and supplemental material&videos; Code is coming soon.
 tags:
 - Computer Graphics
-date: "2022-01-01T00:00:00Z"
+date: "2022-01-04T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -17,7 +17,7 @@ links:
   url: ""
 - name: Supplemental Materials
   url: "https://drive.google.com/drive/folders/15Q3lar4OIafoWb_APUBkCVSkqvhZWPN0"
-  
+
 url_code: ""
 url_pdf: "https://graphics.cs.yale.edu/sites/default/files/ipmm_preprint.pdf"
 url_video: "https://www.youtube.com/watch?v=BUppiilIrM8"
@@ -34,5 +34,19 @@ slides: example
 **Video**:
 {{< youtube BUppiilIrM8 >}}
 
-**Results**:
+**Results**: <br>
 {{% staticref "uploads/hu2022/index.html" "newtab" %}}Click here to navigate our results.{{% /staticref %}}
+
+**Citation**:
+```
+@article{hu2022inverse,
+  title={An Inverse Procedural Modeling Pipeline for SVBRDF Maps},
+  author={Hu, Yiwei and He, Chengan and Deschaintre, Valentin and Dorsey, Julie and Rushmeier, Holly},
+  journal={ACM Transactions on Graphics (TOG)},
+  volume={41},
+  number={2},
+  pages={1--17},
+  year={2022},
+  publisher={ACM New York, NY}
+}
+```
