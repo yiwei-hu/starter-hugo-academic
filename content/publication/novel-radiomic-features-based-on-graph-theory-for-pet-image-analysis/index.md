@@ -12,7 +12,7 @@ authors:
   - Xiang Li
   - Quanzheng Li
 author_notes: []
-publication: 2019 IEEE 16th International Symposium on Biomedical Imaging (ISBI 2019)
+publication: IEEE 16th International Symposium on Biomedical Imaging (ISBI 2019)
 url_dataset: ""
 url_project: ""
 url_source: ""
