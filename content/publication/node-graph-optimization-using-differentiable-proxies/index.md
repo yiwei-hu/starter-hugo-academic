@@ -41,7 +41,7 @@ featured: true
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
+url_pdf: https://graphics.cs.yale.edu/sites/default/files/siggraph22conferenceproceedings-39.pdf
 url_code:
 url_dataset:
 url_poster:

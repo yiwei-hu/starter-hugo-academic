@@ -21,7 +21,7 @@ publishDate: 2022-06-18
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Computer Graphics Forum (EGSR 2022)"
+publication: "Computer Graphics Forum, Proc. of Eurographics Symposium on Rendering (EGSR 2022)"
 publication_short: ""
 
 abstract: "Despite the ubiquitousness of materials maps in modern rendering pipelines, their editing and control remains a challenge. In this paper, we present an example-based material control method to augment input material maps based on user-provided material photos. We train a tileable version of MaterialGAN and leverage its material prior to guide the appearance transfer, optimizing its latent space using differentiable rendering. Our method transfers the micro and meso-structure textures of user provided target(s) photographs, while preserving the structure of the input and quality of the input material. We show our methods can control existing material maps, increasing realism or generating new, visually appealing materials."
@@ -41,11 +41,11 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
+url_pdf: https://graphics.cs.yale.edu/sites/default/files/controlling_material_appearance_by_examples_preprint.pdf
 url_code:
 url_dataset:
 url_poster:
-url_project:
+url_project: https://graphics.cs.yale.edu/publications/controlling-material-appearance-examples
 url_slides:
 url_source:
 url_video:

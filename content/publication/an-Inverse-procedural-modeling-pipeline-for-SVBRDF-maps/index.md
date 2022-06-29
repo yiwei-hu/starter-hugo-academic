@@ -9,7 +9,7 @@ authors:
   - Julie Dorsey
   - Holly Rushmeier
 author_notes: []
-publication: ACM Transactions on Graphics (To be presented at SIGGRAPH 2022)
+publication: ACM Transactions on Graphics (Presented at SIGGRAPH 2022)
 title: An Inverse Procedural Modeling Pipeline for SVBRDF Maps
 doi: 10.1145/3502431
 featured: true
@@ -23,7 +23,7 @@ image:
 date: 2022-01-04
 publishDate: 2022-01-04
 url_dataset: ""
-url_pdf: ""
+url_pdf: "https://graphics.cs.yale.edu/sites/default/files/ipmm_preprint.pdf"
 url_project: ""
 url_slides: ""
 url_poster: ""

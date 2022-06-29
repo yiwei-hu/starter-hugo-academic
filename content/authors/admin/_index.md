@@ -32,10 +32,10 @@ superuser: true
 highlight_name: true
 ---
 I am a fourth-year Ph.D candidate in Computer Graphics Group at Yale Univerisity advised by 
-[Prof. Holly Rushmeier](https://graphics.cs.yale.edu/people/holly-rushmeier) and [Prof. Julie Dorsey](https://graphics.cs.yale.edu/people/julie-dorsey"). 
-My current research forcues on material appearance modeling and rendering. Prior to Yale, I received my bachelor’s degree in the Computer Science Department at Zhejiang University.
+[Prof. Holly Rushmeier](https://graphics.cs.yale.edu/people/holly-rushmeier) and [Prof. Julie Dorsey](https://graphics.cs.yale.edu/people/julie-dorsey). 
+My current research focuses on material appearance modeling and rendering. Prior to Yale, I received my bachelor’s degree in the Computer Science Department at Zhejiang University.
 
-I interned at Adobe Research London Lab working with [Valentin Deschaintre](https://valentin.deschaintre.fr/), 
-and also at Facebook Reality Lab with Chakravarty R. Alla Chaitanya. During my undergraduate study, I was a research assistant advised by [Prof. Rui Wang](http://www.cad.zju.edu.cn/home/rwang/) working on GPU pipeline optimization.
+I interned at Adobe Research, London Lab working with [Valentin Deschaintre](https://valentin.deschaintre.fr/), 
+and also at Meta (Facebook) Reality Lab with [Chakravarty R. Alla Chaitanya](https://dblp.org/pid/204/0028.html). During my undergraduate study, I was a research assistant advised by [Prof. Rui Wang](http://www.cad.zju.edu.cn/home/rwang/) working on GPU pipeline optimization.
 
-Besides graphics, I was a visiting scholar at Harvard Medical School supervised by Prof. Quanzheng Li, working on medical image processing.
+Besides graphics, I was a visiting research scholar at Harvard Medical School supervised by [Prof. Quanzheng Li](https://gordon.mgh.harvard.edu/gc/people/faculty/quanzheng-li/), working on medical image processing.

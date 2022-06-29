@@ -12,7 +12,7 @@ url_dataset: ""
 url_project: ""
 url_source: ""
 url_video: ""
-title: A Novel Framework For Inverse Procedural Texture Modeling
+title: A Novel Framework for Inverse Procedural Texture Modeling
 doi: 10.1145/3355089.3356516
 featured: true
 tags: []
@@ -22,7 +22,7 @@ image:
   preview_only: false
 date: 2019-12-01
 publishDate: 2019-12-01
-url_pdf: ""
+url_pdf: "https://graphics.cs.yale.edu/sites/default/files/inverse_procedural_texture_modeling_low-res_0.pdf"
 url_project: "https://graphics.cs.yale.edu/publications/novel-framework-inverse-procedural-texture-modeling"
 url_slides: ""
 url_poster: ""
