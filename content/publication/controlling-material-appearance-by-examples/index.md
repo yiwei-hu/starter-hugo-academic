@@ -31,7 +31,7 @@ summary: ""
 
 tags: []
 categories: []
-featured: false
+featured: True
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
@@ -45,7 +45,7 @@ url_pdf: https://graphics.cs.yale.edu/sites/default/files/controlling_material_a
 url_code:
 url_dataset:
 url_poster:
-url_project: https://graphics.cs.yale.edu/publications/controlling-material-appearance-examples
+url_project:
 url_slides:
 url_source:
 url_video:
@@ -63,7 +63,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: []
+projects: [hu2022control]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

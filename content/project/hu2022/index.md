@@ -1,6 +1,6 @@
 ---
 title: An Inverse Procedural Modeling Pipeline for SVBRDF Maps
-summary: Main paper and supplemental material&videos; Code is coming soon.
+summary: Including paper, supplemental material&videos and source code (coming soon).
 tags:
 - Computer Graphics
 date: "2022-01-04T00:00:00Z"
@@ -14,7 +14,7 @@ image:
 
 links:
 - name: Code (Coming Soon)
-  url: ""
+  url: "https://github.com/yiwei-hu/SVBRDF-Proceduralization"
 - name: Supplemental Materials
   url: "https://drive.google.com/drive/folders/15Q3lar4OIafoWb_APUBkCVSkqvhZWPN0"
 
