@@ -9,7 +9,7 @@ authors:
   - Holly Rushmeier
   - Valentin Deschaintre
 date: 2022-07-04
-doi: ""
+doi: "10.1111/cgf.14591"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2022-06-18
