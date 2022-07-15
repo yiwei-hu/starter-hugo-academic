@@ -2,11 +2,18 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Controlling Material Appearance by Examples"
-summary: "Including paper, supplemental materials and source code"
-authors: []
-tags: []
+summary: "We present a by-example material appearance transfer method that 
+can augment input material maps based on user-provided material photos."
+authors:   
+  - admin
+  - Miloš Hašan
+  - Paul Guerrero
+  - Holly Rushmeier
+  - Valentin Deschaintre
+tags:
+  - Computer Graphics
 categories: []
-date: 2022-07-03T15:31:56-04:00
+date: 2022-07-03
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

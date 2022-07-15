@@ -1,9 +1,16 @@
 ---
 title: An Inverse Procedural Modeling Pipeline for SVBRDF Maps
-summary: Including paper, supplemental material&videos and source code (coming soon).
+summary: "We present a semi-automatic pipeline for general material proceduralization which
+converts SV-BRDF maps to a procedural graph representation without relying on a pre-defined graph as auxiliary input."
+authors:
+  - admin
+  - Chengan He
+  - Valentin Deschaintre
+  - Julie Dorsey
+  - Holly Rushmeier
 tags:
 - Computer Graphics
-date: "2022-01-04T00:00:00Z"
+date: "2022-01-04"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

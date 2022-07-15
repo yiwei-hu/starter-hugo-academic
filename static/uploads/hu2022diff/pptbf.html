@@ -1,0 +1,337 @@
+<html>
+
+<body>
+    <table style='max-width:100%;margin-left:auto;margin-right:auto;'>
+        <caoption style="text-align:center">
+            <h1>
+                Differentiable Proxy in Hu et al.'s Framework
+            </h1>
+			<h2>
+                Synthetic SV-BRDF Maps
+            </h2>
+        </caoption>
+        <tr>
+            <td>&nbsp;</td>
+            <td style="text-align:center">Albedo</td>
+            <td style="text-align:center">Normal</td>
+            <td style="text-align:center">Roughness</td>
+            <td style="text-align:center">Label Map</td>
+            <td style="text-align:center">Render</td>
+        </tr>
+<!------------------------------------------------------------------------------->
+		<tr>
+            <td>Input</td>
+            <td><img src='./pptbf/TexturesCom_Metal_SteelRusted_1K/albedo(gt).jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/TexturesCom_Metal_SteelRusted_1K/normal(gt).jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/TexturesCom_Metal_SteelRusted_1K/roughness(gt).jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/TexturesCom_Metal_SteelRusted_1K/label_map(gt).jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/TexturesCom_Metal_SteelRusted_1K/render0(gt).png'
+                    style='max-width:256px;max-height:256px'></td>
+        </tr>
+
+        <tr>
+            <td>Hu et al.</td>
+            <td><img src='./pptbf/TexturesCom_Metal_SteelRusted_1K/albedo.jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/TexturesCom_Metal_SteelRusted_1K/normal.jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/TexturesCom_Metal_SteelRusted_1K/roughness.jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/TexturesCom_Metal_SteelRusted_1K/label_map.jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/TexturesCom_Metal_SteelRusted_1K/render0.png'
+                    style='max-width:256px;max-height:256px'></td>
+        </tr>
+		
+        <tr>
+            <td>Ours</td>
+            <td><img src='./pptbf/TexturesCom_Metal_SteelRusted_1K/ours/albedo.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/TexturesCom_Metal_SteelRusted_1K/ours/normal.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/TexturesCom_Metal_SteelRusted_1K/ours/roughness.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/TexturesCom_Metal_SteelRusted_1K/ours/label_map.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/TexturesCom_Metal_SteelRusted_1K/ours/render0.png'
+                    style='max-width:256px;max-height:256px'></td>
+        </tr>
+		
+<!------------------------------------------------------------------------------->
+		<tr>
+            <td>Input</td>
+            <td><img src='./pptbf/PaintedPlaster006_1K/albedo(gt).jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/PaintedPlaster006_1K/normal(gt).jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/PaintedPlaster006_1K/roughness(gt).jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/PaintedPlaster006_1K/label_map(gt).jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/PaintedPlaster006_1K/render0(gt).png'
+                    style='max-width:256px;max-height:256px'></td>
+        </tr>
+
+        <tr>
+            <td>Hu et al.</td>
+            <td><img src='./pptbf/PaintedPlaster006_1K/albedo.jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/PaintedPlaster006_1K/normal.jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/PaintedPlaster006_1K/roughness.jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/PaintedPlaster006_1K/label_map.jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/PaintedPlaster006_1K/render0.png'
+                    style='max-width:256px;max-height:256px'></td>
+        </tr>
+		
+        <tr>
+            <td>Ours</td>
+            <td><img src='./pptbf/PaintedPlaster006_1K/ours/albedo.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/PaintedPlaster006_1K/ours/normal.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/PaintedPlaster006_1K/ours/roughness.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/PaintedPlaster006_1K/ours/label_map.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/PaintedPlaster006_1K/ours/render0.png'
+                    style='max-width:256px;max-height:256px'></td>
+        </tr>
+		
+<!------------------------------------------------------------------------------->
+		<tr>
+            <td>Input</td>
+            <td><img src='./pptbf/Carpet003_1K/albedo(gt).jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/Carpet003_1K/normal(gt).jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/Carpet003_1K/roughness(gt).jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/Carpet003_1K/label_map(gt).jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/Carpet003_1K/render0(gt).png'
+                    style='max-width:256px;max-height:256px'></td>
+        </tr>
+
+        <tr>
+            <td>Hu et al.</td>
+            <td><img src='./pptbf/Carpet003_1K/albedo.jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/Carpet003_1K/normal.jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/Carpet003_1K/roughness.jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/Carpet003_1K/label_map.jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/Carpet003_1K/render0.png'
+                    style='max-width:256px;max-height:256px'></td>
+        </tr>
+		
+        <tr>
+            <td>Ours</td>
+            <td><img src='./pptbf/Carpet003_1K/ours/albedo.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/Carpet003_1K/ours/normal.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/Carpet003_1K/ours/roughness.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/Carpet003_1K/ours/label_map.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/Carpet003_1K/ours/render0.png'
+                    style='max-width:256px;max-height:256px'></td>
+        </tr>		
+		
+	</table>
+<!------------------------------------------------------------------------------->
+	<table style='max-width:100%;margin-left:auto;margin-right:auto;'>
+        <caoption style="text-align:center">
+			<h2>
+                Real Captured SV-BRDF Maps
+            </h2>
+        </caoption>
+        <tr>
+            <td>&nbsp;</td>
+            <td style="text-align:center">Albedo</td>
+            <td style="text-align:center">Normal</td>
+            <td style="text-align:center">Roughness</td>
+            <td style="text-align:center">Label Map</td>
+            <td style="text-align:center">Render</td>
+        </tr>
+<!------------------------------------------------------------------------------->
+		<tr>
+            <td>Input</td>
+            <td><img src='./pptbf/bonn_wallpaper_06/albedo(gt).jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/bonn_wallpaper_06/normal(gt).jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/bonn_wallpaper_06/roughness(gt).jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/bonn_wallpaper_06/label_map(gt).jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/bonn_wallpaper_06/render0(gt).png'
+                    style='max-width:256px;max-height:256px'></td>
+        </tr>
+
+        <tr>
+            <td>Hu et al.</td>
+            <td><img src='./pptbf/bonn_wallpaper_06/albedo.jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/bonn_wallpaper_06/normal.jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/bonn_wallpaper_06/roughness.jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/bonn_wallpaper_06/label_map.jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/bonn_wallpaper_06/render0.png'
+                    style='max-width:256px;max-height:256px'></td>
+        </tr>
+		
+        <tr>
+            <td>Ours</td>
+            <td><img src='./pptbf/bonn_wallpaper_06/ours/albedo.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/bonn_wallpaper_06/ours/normal.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/bonn_wallpaper_06/ours/roughness.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/bonn_wallpaper_06/ours/label_map.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/bonn_wallpaper_06/ours/render0.png'
+                    style='max-width:256px;max-height:256px'></td>
+        </tr>
+<!------------------------------------------------------------------------------->
+		<tr>
+            <td>Input</td>
+            <td><img src='./pptbf/google_wall/albedo(gt).jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/google_wall/normal(gt).jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/google_wall/roughness(gt).jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/google_wall/label_map(gt).jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/google_wall/render0(gt).png'
+                    style='max-width:256px;max-height:256px'></td>
+        </tr>
+
+        <tr>
+            <td>Hu et al.</td>
+            <td><img src='./pptbf/google_wall/albedo.jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/google_wall/normal.jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/google_wall/roughness.jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/google_wall/label_map.jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/google_wall/render0.png'
+                    style='max-width:256px;max-height:256px'></td>
+        </tr>
+		
+        <tr>
+            <td>Ours</td>
+            <td><img src='./pptbf/google_wall/ours/albedo.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/google_wall/ours/normal.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/google_wall/ours/roughness.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/google_wall/ours/label_map.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/google_wall/ours/render0.png'
+                    style='max-width:256px;max-height:256px'></td>
+        </tr>
+<!------------------------------------------------------------------------------->
+		<tr>
+            <td>Input</td>
+            <td><img src='./pptbf/real_brick/albedo(gt).jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/real_brick/normal(gt).jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/real_brick/roughness(gt).jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/real_brick/label_map(gt).jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/real_brick/render0(gt).png'
+                    style='max-width:256px;max-height:256px'></td>
+        </tr>
+
+        <tr>
+            <td>Hu et al.</td>
+            <td><img src='./pptbf/real_brick/albedo.jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/real_brick/normal.jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/real_brick/roughness.jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/real_brick/label_map.jpg'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/real_brick/render0.png'
+                    style='max-width:256px;max-height:256px'></td>
+        </tr>
+		
+        <tr>
+            <td>Ours</td>
+            <td><img src='./pptbf/real_brick/ours/albedo.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/real_brick/ours/normal.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/real_brick/ours/roughness.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/real_brick/ours/label_map.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/real_brick/ours/render0.png'
+                    style='max-width:256px;max-height:256px'></td>
+        </tr>
+<!------------------------------------------------------------------------------->
+		<tr>
+            <td>Input</td>
+            <td><img src='./pptbf/mosaic/albedo(gt).png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/mosaic/normal(gt).png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/mosaic/roughness(gt).png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/mosaic/label_map(gt).png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/mosaic/render0(gt).png'
+                    style='max-width:256px;max-height:256px'></td>
+        </tr>
+
+        <tr>
+            <td>Hu et al.</td>
+            <td><img src='./pptbf/mosaic/albedo.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/mosaic/normal.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/mosaic/roughness.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/mosaic/label_map.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/mosaic/render0.png'
+                    style='max-width:256px;max-height:256px'></td>
+        </tr>
+		
+        <tr>
+            <td>Ours</td>
+            <td><img src='./pptbf/mosaic/ours/albedo.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/mosaic/ours/normal.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/mosaic/ours/roughness.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/mosaic/ours/label_map.png'
+                    style='max-width:256px;max-height:256px'></td>
+            <td><img src='./pptbf/mosaic/ours/render0.png'
+                    style='max-width:256px;max-height:256px'></td>
+        </tr>
+    </table>
+</body>
+
+</html>

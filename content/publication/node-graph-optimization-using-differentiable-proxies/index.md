@@ -41,11 +41,11 @@ featured: true
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://graphics.cs.yale.edu/sites/default/files/siggraph22conferenceproceedings-39.pdf
+url_pdf: https://graphics.cs.yale.edu/sites/default/files/node_graph_optimization_using_differentiable_proxies.pdf
 url_code:
 url_dataset:
 url_poster:
-url_project: https://graphics.cs.yale.edu/publications/node-graph-optimization-using-differentiable-proxies
+url_project:
 url_slides:
 url_source:
 url_video:
@@ -63,7 +63,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: []
+projects: [hu2022diff]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
