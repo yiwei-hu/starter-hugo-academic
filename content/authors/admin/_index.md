@@ -31,7 +31,7 @@ email: ""
 superuser: true
 highlight_name: true
 ---
-I am a fourth-year Ph.D candidate in Computer Graphics Group at Yale Univerisity advised by 
+I am a fourth-year Ph.D candidate in Computer Graphics Group at Yale University  advised by 
 [Prof. Holly Rushmeier](https://graphics.cs.yale.edu/people/holly-rushmeier) and [Prof. Julie Dorsey](https://graphics.cs.yale.edu/people/julie-dorsey). 
 My current research focuses on material appearance modeling and rendering. Prior to Yale, I received my bachelor’s degree in the Computer Science Department at Zhejiang University.
 
