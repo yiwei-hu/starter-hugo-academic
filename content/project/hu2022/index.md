@@ -20,12 +20,10 @@ image:
   focal_point: Smart
 
 links:
-- name: Code (Coming Soon)
-  url: "https://github.com/yiwei-hu/SVBRDF-Proceduralization"
 - name: Supplemental Materials
   url: "https://drive.google.com/drive/folders/15Q3lar4OIafoWb_APUBkCVSkqvhZWPN0"
 
-url_code: ""
+url_code: "https://github.com/yiwei-hu/SVBRDF-Proceduralization"
 url_pdf: "https://graphics.cs.yale.edu/sites/default/files/ipmm_preprint.pdf"
 url_video: "https://www.youtube.com/watch?v=BUppiilIrM8"
 
