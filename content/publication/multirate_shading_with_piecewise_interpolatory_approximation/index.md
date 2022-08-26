@@ -21,7 +21,7 @@ publishDate: 2022-08-13
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Conditionally Accepted to Pacific Graphics 2022, Journal (CGF) Track"
+publication: "Computer Graphics Forum, Proc. of Pacific Graphics (PG 2022)"
 publication_short: ""
 
 abstract: "Evaluating shading functions on geometry surfaces dominates the rendering computation. A high-quality but time-consuming
@@ -50,7 +50,7 @@ featured: true
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
+url_pdf: https://graphics.cs.yale.edu/sites/default/files/multirate_shading_with_piecewise_interpolatory_approximation.pdf
 url_code:
 url_dataset:
 url_poster:
@@ -72,7 +72,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: []
+projects: [hu2022multirate]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.

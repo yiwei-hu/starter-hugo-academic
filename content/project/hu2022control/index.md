@@ -2,8 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Controlling Material Appearance by Examples"
-summary: "We present a by-example material appearance transfer method that 
-can augment input material maps based on user-provided material photos."
+summary: "We present a by-example material appearance transfer method that can augment input material maps based on user-provided material photos."
 authors:   
   - admin
   - Miloš Hašan
