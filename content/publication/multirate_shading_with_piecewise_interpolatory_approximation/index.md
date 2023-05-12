@@ -9,7 +9,7 @@ authors:
   - Zhuo Yang
   - Hujun Bao
 date: 2022-08-13
-doi: ""
+doi: "10.1111/cgf.14674"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2022-08-13

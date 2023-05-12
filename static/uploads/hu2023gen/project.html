@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="Generating Procedural Materials from Text or Image Prompts"/>
+  <meta property="og:description" content="Generating Procedural Materials from Text or Image Prompts"/>
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="Node graphs, procedural materials, inverse modeling">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Generating Procedural Materials from Text or Image Prompts</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Generating Procedural Materials from Text or Image Prompts</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://yiweihu.netlify.app/" target="_blank">Yiwei Hu</a><sup>1,2</sup>,</span>
+              <span class="author-block">
+			    <a href="https://paulguerrero.net/" target="_blank">Paul Guerrero</a><sup>2</sup>,</span>
+              <span class="author-block">
+                <a href="http://www.miloshasan.net/" target="_blank">Miloš Hašan</a><sup>2</sup>,</span>
+		      <span class="author-block">
+                 <a href="https://graphics.cs.yale.edu/people/holly-rushmeier" target="_blank">Holly Rushmeier</a><sup>1</sup>,</span>
+			  <span class="author-block">
+                 <a href="https://valentin.deschaintre.fr/" target="_blank">Valentin Deschaintre</a><sup>2</sup>
+			  </span> 
+		    </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>Yale University, &nbsp &nbsp<sup>2</sup>Adobe Research<br>SIGGRAPH 2023</span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://graphics.cs.yale.edu/sites/default/files/generating_procedural_materials_from_text_or_image_prompts.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="https://drive.google.com/drive/u/1/folders/17md3A8IjzNnZuU8zN0ey4KOXRYW3HayH" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2304.13172" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser figure-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="static/images/teaser.jpg"/>
+      <h2 class="subtitle has-text-justified">
+        Procedural materials can be represented by directed computational graphs where each node represents a 2D image generator or filtering operator. The nodes are connected by unidirectional edges defining the computation flow. Our generative model can produce multiple procedural material graphs 1) from image prompts, 2) from text prompts, 3) unconditionally and 4) conditioned on partial graphs (AutoCompletion). Generated graph structures are shown in green, existing structures (in AutoCompletion) are in blue.
+       </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser figure -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Node graph systems are used ubiquitously for material design in computer graphics. They allow the use of visual programming to achieve desired effects without writing code. As high-level design tools they provide convenience and flexibility, but mastering the creation of node graphs usually requires professional training. We propose an algorithm capable of generating multiple node graphs from different types of prompts, significantly lowering the bar for users to explore a specific design space. Previous work (MatFormer) was limited to unconditional generation of random node graphs, making the generation of an envisioned material challenging. We propose a multi-modal node graph generation neural architecture for high-quality procedural material synthesis which can be conditioned on different inputs (text or image prompts), using a CLIP-based encoder. We also create a substantially augmented material graph dataset, key to improving the generation quality. Finally, we generate high-quality graph samples using a regularized sampling process and improve the matching quality by differentiable optimization for top-ranked samples. We compare our methods to CLIP-based database search baselines (which are themselves novel) and achieve superior or similar performance without requiring massive data storage. We further show that our model can produce a set of material graphs unconditionally, conditioned on images, text prompts or partial graphs, serving as a tool for automatic visual programming completion.           
+		  </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+	<div class="item">
+	<!-- Your image here -->
+	<img src="static/images/real_inputs_v2.jpg" style="max-width: 100%; height: auto;"alt="image prompts"/>
+	<h2 class="subtitle has-text-justified"><b>
+	  Image Prompts. We show real photos as inputs and three of our generated material graphs. For each example, the top row shows non-optimized outputs directly predicted by our models, while the bottom row shows our final output after optimization. See supplemental material for more results.
+	</b></h2>
+	</div>
+      </div>
+  </div>
+</section>
+	  
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="item">
+        <!-- Your image here -->
+		<div style="text-align: center;">
+        <img src="static/images/text_inputs_v2.jpg" style="max-width: 100%; height: auto;" alt="text prompts"/>
+		</div>
+        <h2 class="subtitle has-text-justified"><b>
+          Text Prompts. Our model generates multiple procedural material graphs given various text prompts. See supplemental material for more results.
+        </b></h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="item">
+        <!-- Your image here -->
+		<div style="text-align: center;">
+        <img src="static/images/autocompletion_summary.jpg" style="max-width: 50%; height: auto;" alt="autocompletion"/>
+		</div>
+        <h2 class="subtitle has-text-justified"><b>
+          Autocompletion. As a sequential model, our model can accept partial sequences (partially completed material graphs) and generate the rest of the structures and parameters toward image prompts. Existing structures are blue and our predicted are green.
+        </b></h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@inproceedings{hu2023gen, 
+author = {Hu, Yiwei and Guerrero, Paul and Hasan, Milos and Rushmeier, Holly and Deschaintre, Valentin},
+title = "{Generating Procedural Materials from Text or Image Prompts}",
+year = {2023},
+booktitle = {ACM SIGGRAPH 2023 Conference Proceedings}}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+<section class="section" id="ack">
+  <div class="container">
+    <div class="columns is-centered">
+    <h2 class="subtitle has-text-justified"><p>Acknowledgement: This work was supported in part by NSF Grant No. IIS-2007283.</p></h2>
+    </div>
+</section>
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
+			This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
