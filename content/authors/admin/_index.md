@@ -1,6 +1,6 @@
 ---
 title: Yiwei Hu
-role: Ph.D. Candidate
+role: Research Scientist
 bio: ""
 interests:
   - Computer Graphics
@@ -9,7 +9,7 @@ interests:
 social:
   - icon: envelope
     icon_pack: fas
-    link: mailto:yiwei.hu@yale.edu
+    link: mailto:yiwhu@adobe.com
   - icon: graduation-cap
     icon_pack: fas
     link: https://graphics.cs.yale.edu/people/yiwei-hu
@@ -17,8 +17,8 @@ social:
     icon_pack: fab
     link: https://www.linkedin.com/in/yiwei-hu-2598b015a/
 organizations:
-  - name: Yale University
-    url: https://www.yale.edu/
+  - name: Adobe Research
+    url: https://research.adobe.com/
 education:
   courses:
     - course: PhD in Computer Graphics
@@ -31,11 +31,9 @@ email: ""
 superuser: true
 highlight_name: true
 ---
-I am a final-year Ph.D student in Computer Graphics Group at Yale University  advised by 
-[Prof. Holly Rushmeier](https://graphics.cs.yale.edu/people/holly-rushmeier) and [Prof. Julie Dorsey](https://graphics.cs.yale.edu/people/julie-dorsey). 
-My current research focuses on material appearance modeling and rendering. Prior to Yale, I received my bachelor’s degree in the Computer Science Department at Zhejiang University.
+I am a research scientist at Adobe Research. I received my Ph.D. from Yale University, under the supervision by [Prof. Holly Rushmeier](https://graphics.cs.yale.edu/people/holly-rushmeier) and [Prof. Julie Dorsey](https://graphics.cs.yale.edu/people/julie-dorsey). 
+My current research focuses on material appearance modeling and rendering. Prior to Yale, I received my bachelor’s degree from Zhejiang University, advised by [Prof. Rui Wang](http://www.cad.zju.edu.cn/home/rwang/). 
 
-I interned at Adobe Research, London Lab working with [Valentin Deschaintre](https://valentin.deschaintre.fr/), 
-and also at Meta (Facebook) Reality Lab with [Chakravarty R. Alla Chaitanya](https://dblp.org/pid/204/0028.html). During my undergraduate study, I was a research assistant advised by [Prof. Rui Wang](http://www.cad.zju.edu.cn/home/rwang/) working on GPU pipeline optimization.
+My research focuses on computer graphics. I am interested in topics about material and rendering such as procedural materials, inverse rendering, generative models etc.
 
-Besides graphics, I was a visiting research scholar at Harvard Medical School supervised by [Prof. Quanzheng Li](https://gordon.mgh.harvard.edu/gc/people/faculty/quanzheng-li/), working on medical image processing.
+I am open to collaborations and looking for strong Ph.D. students who is interested in Adobe Internship program.
