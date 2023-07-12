@@ -23,7 +23,7 @@ education:
   courses:
     - course: PhD in Computer Graphics
       institution: Yale University
-      year: Current
+      year: 2023
     - course: BSc in Computer Science
       institution: Zhejiang University
       year: 2018
