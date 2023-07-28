@@ -7,7 +7,7 @@ authors:
   - Julie Dorsey
   - Holly Rushmeier
 author_notes: []
-publication: ACM Transactions on Graphics (SIGGRAPH AISA 2019)
+publication: ACM Transactions on Graphics (SIGGRAPH ASIA 2019)
 url_dataset: ""
 url_project: ""
 url_source: ""
