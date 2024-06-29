@@ -33,6 +33,4 @@ highlight_name: true
 ---
 I am a research scientist at Adobe Research. I received my Ph.D. from Yale University, under the supervision by [Prof. Holly Rushmeier](https://graphics.cs.yale.edu/people/holly-rushmeier) and [Prof. Julie Dorsey](https://graphics.cs.yale.edu/people/julie-dorsey). Prior to Yale, I received my bachelor’s degree from Zhejiang University, advised by [Prof. Rui Wang](http://www.cad.zju.edu.cn/home/rwang/). 
 
-My research focuses on computer graphics. I am interested in topics about material and rendering such as procedural materials, inverse rendering, generative models etc.
-
-I am open to collaborations and looking for strong Ph.D. students who is interested in Adobe internship program.
+My research focuses on computer graphics. I am interested in topics about procedural and generative 2D/3D modeling (material, shape, lighting etc). I am open to collaborations and looking for strong Ph.D. students who is interested in Adobe internship program.
