@@ -11,7 +11,7 @@ authors:
   - Valentin Deschaintre
   - Wojciech Matusik
 date: 2024-09-16
-# doi: "3588432.3591520"
+doi: "10.1145/3687979"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2024-09-16
@@ -43,7 +43,7 @@ featured: true
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
+url_pdf: https://dl.acm.org/doi/10.1145/3687979
 url_code:
 url_dataset:
 url_poster:
