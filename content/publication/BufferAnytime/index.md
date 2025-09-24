@@ -13,11 +13,11 @@ authors:
   - Milos Hasan
   - Gordon Wetzstein
   - Fujun Luan
-date: 2024-11-20
+date: 2025-06-03
 # doi: "10.1145/3687979"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2024-11-20
+publishDate: 2025-06-03
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -26,7 +26,7 @@ publishDate: 2024-11-20
 publication_types: ["0"]
 
 # Publication name and optional abbreviated publication name.
-publication: ""
+publication: "CVPR 2025"
 publication_short: ""
 
 abstract: "We present Buffer Anytime, a framework for estimation of depth and normal maps (which we call geometric buffers) from video that eliminates the need for paired video--depth and video--normal training data. Instead of relying on large-scale annotated video datasets, we demonstrate high-quality video buffer estimation by leveraging single-image priors with temporal consistency constraints. Our zero-shot training strategy combines state-of-the-art image estimation models based on optical flow smoothness through a hybrid loss function, implemented via a lightweight temporal attention architecture. Applied to leading image models like Depth Anything V2 and Marigold-E2E-FT, our approach significantly improves temporal consistency while maintaining accuracy. Experiments show that our method not only outperforms image-based approaches but also achieves results comparable to state-of-the-art video models trained on large-scale paired video datasets, despite using no such paired video data."
@@ -49,7 +49,7 @@ url_pdf: https://arxiv.org/abs/2411.17249
 url_code:
 url_dataset:
 url_poster:
-url_project:
+url_project: https://bufferanytime.github.io/
 url_slides:
 url_source:
 url_video:

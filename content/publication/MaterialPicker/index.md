@@ -1,22 +1,20 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Turbo3D: Ultra-fast Text-to-3D Generation"
+title: "MaterialPicker: Multi-Modal DiT-Based Material Generation"
 authors: 
-  - Hanzhe Hu
-  - Tianwei Yin
-  - Fujun Luan
-  - admin
-  - Hao Tan
-  - Zexiang Xu
-  - Sai Bi
-  - Shubham Tulsiani
-  - Kai Zhang
-date: 2025-06-03
+ - Xiaohe Ma
+ - Valentin Deschaintre
+ - Miloš Hašan
+ - Fujun Luan
+ - Kun Zhou
+ - Hongzhi Wu
+ - admin
+date: 2025-07-28
 # doi: "10.1145/3687979"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2025-06-03
+publishDate: 2025-07-28
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -25,10 +23,11 @@ publishDate: 2025-06-03
 publication_types: ["0"]
 
 # Publication name and optional abbreviated publication name.
-publication: "CVPR 2025"
+publication: "ACM Transactions on Graphics (SIGGRAPH 2025)"
 publication_short: ""
 
-abstract: "We present Turbo3D, an ultra-fast text-to-3D system capable of generating high-quality Gaussian splatting assets in under one second. Turbo3D employs a rapid 4-step, 4-view diffusion generator and an efficient feed-forward Gaussian reconstructor, both operating in latent space. The 4-step, 4-view generator is a student model distilled through a novel Dual-Teacher approach, which encourages the student to learn view consistency from a multi-view teacher and photo-realism from a single-view teacher. By shifting the Gaussian reconstructor’s inputs from pixel space to latent space, we eliminate the extra image decoding time and halve the transformer sequence length for maximum efficiency. Our method demonstrates superior 3D generation results compared to previous baselines, while operating in a fraction of their runtime."
+abstract: "High-quality material generation is key for virtual environment authoring and inverse rendering. We propose MaterialPicker, a multi-modal material generator leveraging a Diffusion Transformer (DiT) architecture, improving and simplifying the creation of high-quality materials from text prompts and/or photographs. Our method can generate a material based on an image crop of a material sample, even if the captured surface is distorted, viewed at an angle or partially occluded, as is often the case in photographs of natural scenes. We further allow the user to specify a text prompt to provide additional guidance for the generation. We finetune a pre-trained DiT-based video generator into a material generator, where each material map is treated as a frame in a video sequence. We evaluate our approach both quantitatively and qualitatively and show that it enables more diverse material generation and better distortion correction than previous work."
+
 # Summary. An optional shortened abstract.
 summary: ""
 
@@ -44,11 +43,11 @@ featured: true
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://arxiv.org/abs/2412.04470
+url_pdf:
 url_code:
 url_dataset:
 url_poster:
-url_project: https://turbo-3d.github.io/
+url_project: https://xiaohema98.com/publications/materialpicker/index.html
 url_slides:
 url_source:
 url_video:
