@@ -9,7 +9,6 @@ authors:
 author_notes: []
 publication: ACM Transactions on Graphics (SIGGRAPH ASIA 2019)
 url_dataset: ""
-url_project: ""
 url_source: ""
 url_video: ""
 title: A Novel Framework for Inverse Procedural Texture Modeling

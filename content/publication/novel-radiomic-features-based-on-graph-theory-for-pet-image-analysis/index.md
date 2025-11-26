@@ -14,7 +14,6 @@ authors:
 author_notes: []
 publication: IEEE 16th International Symposium on Biomedical Imaging (ISBI 2019)
 url_dataset: ""
-url_project: ""
 url_source: ""
 url_video: ""
 title: Novel Radiomic Features Based on Graph Theory for PET Image Analysis
