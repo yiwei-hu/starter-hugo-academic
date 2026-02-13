@@ -46,7 +46,7 @@ url_pdf:
 url_code:
 url_dataset:
 url_poster:
-url_project: https://zhaoyangzh.github.io/publication/2025_siggraphasia_worldprompter/
+url_project: https://zhaoyangzh.github.io/projects/worldprompter/
 url_slides:
 url_source:
 url_video:

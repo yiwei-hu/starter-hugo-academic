@@ -50,7 +50,7 @@ featured: true
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://graphics.cs.yale.edu/sites/default/files/multirate_shading_with_piecewise_interpolatory_approximation.pdf
+url_pdf: https://graphics.cs.yale.edu/publications/multirate-shading-piecewise-interpolatory-approximation
 url_code:
 url_dataset:
 url_poster:
